@@ -7,7 +7,7 @@ h1, h2, h3, h4, h5, h6{
     font-family: "Oxygen", arial, sans-serif;
 }
 
-.clearfix::after{
+.clearfix::after, row::after{
     content: ' ';
     display: block;
     clear: both;
@@ -78,6 +78,7 @@ h1, h2, h3, h4, h5, h6{
     padding: 2em;
     background: #f6f6f6;
     text-align: center;
+    display: inline-block;
 }
 
 .midle-content-title{
@@ -92,7 +93,7 @@ h1, h2, h3, h4, h5, h6{
 }
 
 .midle-content span[class^=icon]{
-    font-size: 3.5em;
+    font-size: 3em;
     color: #652e79;
 }
 
@@ -184,6 +185,11 @@ footer{
         color: white;
     }
 
-    
+    .col-1-4{
+        width: 44%;
+        margin: 3%;
+        float: left;
+    }
+
 }
 
